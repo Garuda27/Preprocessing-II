@@ -249,6 +249,13 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media ((max-width: 500px)) {
+  .home .content-pick {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
